@@ -10,7 +10,6 @@ body {
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -80,6 +79,13 @@ body {
 .button.hero {
   color: var(--secondary-accent-color);
   background-color: var(--primary-accent-color);
+  cursor: pointer;
+}
+
+.button.hero:hover,
+.button.hero:focus {
+  color: var(--title-text-color);
+  background-color: var(--primary-text-color);
 }
 
 .hero-title {
@@ -147,7 +153,6 @@ body {
 }
 
 .team-spec {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -171,7 +176,6 @@ body {
 
 .footer .contact {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -202,6 +206,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .examples .button:hover,
@@ -220,7 +225,6 @@ body {
 
 .examples .text {
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
