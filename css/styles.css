@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --primary-accent-color: #2196f3;
   --secondary-accent-color: #ffffff;
+  --buttons-color: #f5f4fa;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-element {
@@ -41,6 +43,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .primary.link {
@@ -60,6 +63,7 @@ body {
 .contact {
   list-style: none;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .contact:hover,
@@ -73,9 +77,9 @@ body {
   background-color: #2f303a;
 }
 
-.button {
-    color: var(--secondary-accent-color);
-    background-color: var(--primary-accent-color);
+.button.hero {
+  color: var(--secondary-accent-color);
+  background-color: var(--primary-accent-color);
 }
 
 .hero-title {
@@ -176,4 +180,48 @@ body {
 .footer .contact:hover,
 .footer .contact:focus {
   color: var(--primary-accent-color);
+}
+.address {
+  font-style: normal;
+}
+
+/* portfolio */
+
+.examples ul {
+  list-style: none;
+}
+
+.examples a {
+  text-decoration: none;
+}
+
+.examples .button {
+  color: var(--title-text-color);
+  background-color: var(--buttons-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.examples .button:hover,
+.examples .button:focus {
+  color: var(--secondary-accent-color);
+  background-color: var(--primary-accent-color);
+}
+
+.examples-titles {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples .text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
