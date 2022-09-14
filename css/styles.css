@@ -15,6 +15,14 @@ body {
   letter-spacing: 0.03em;
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* Логотип */
 
 .logo {
@@ -32,18 +40,13 @@ body {
 
 /* Навігація */
 
-.site-nav ul {
-  list-style: none;
-}
-
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  text-decoration: none;
-}
+  }
 
 .site-nav .primary.link {
   color: var(--primary-accent-color);
@@ -76,10 +79,13 @@ body {
   background-color: #2f303a;
 }
 
+.button {
+  cursor: pointer;
+}
+
 .button.hero {
   color: var(--secondary-accent-color);
-  background-color: var(--primary-accent-color);
-  cursor: pointer;
+  background-color: var(--primary-accent-color);  
 }
 
 .button.hero:hover,
@@ -100,10 +106,6 @@ body {
 
 /* Особливості */
 
-.features ul {
-  list-style: none;
-}
-
 .features-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -115,10 +117,6 @@ body {
 
 /* Чим ми займаємося */
 
-.works ul {
-  list-style: none;
-}
-
 .works-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -129,10 +127,6 @@ body {
 }
 
 /* Наша команда */
-
-.team ul {
-  list-style: none;
-}
 
 .team-title {
   color: var(--title-text-color);
@@ -170,10 +164,6 @@ body {
   color: var(--secondary-accent-color);
 }
 
-.footer ul {
-  list-style: none;
-}
-
 .footer .contact {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -191,22 +181,14 @@ body {
 
 /* portfolio */
 
-.examples ul {
-  list-style: none;
-}
-
-.examples a {
-  text-decoration: none;
-}
-
 .examples .button {
+  font-family: inherit;
   color: var(--title-text-color);
   background-color: var(--buttons-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  cursor: pointer;
 }
 
 .examples .button:hover,
